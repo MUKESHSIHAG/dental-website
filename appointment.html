@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Alright</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1,shrink-to-fit=no">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="conFusion/node_modules/bootstrap-social/bootstrap-social.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" href="conFusion/node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <script type="text/javascript">
+    function ValidateEmail(mail) 
+{
+ if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(myForm.emailAddr.value))
+  {
+    return (true)
+  }
+    alert("You have entered an invalid email address!")
+    return (false)
+}
+  </script>
+  <style type="text/css">
+
+
+</style>
+</head>
+
+<body>
+  <a href="appointment.html"><img class="icon" src="images/icon.png"></a>
+  <nav class="navbar-fixed-top">
+    <div class="container-fluid" id="topdiv">
+     <div class="col-lg-1"></div>
+     <div style="color:white;" class="col-lg-2"><span class="glyphicon glyphicon-ok-circle"></span> iso certified</div>
+     <div  class="col-lg-2"> </div>
+     <div style="color:white;"class="col-lg-4"><span class="glyphicon glyphicon-phone"></span> CALL 965 454 5254 </div>
+     <div class="col-lg-1"></div>
+     <div style="color:white;" class="col-lg-2"><span class="glyphicon glyphicon-download-alt"></span><a style="color:white;" href="appointment.html"> online appointment</a></div>
+   </div>
+ </nav>
+<header>
+  <div class="container">
+    <div class="row row-header">
+      <div class="col-12 col-sm-2 align-self-center">
+        <img src="images/alright.jpg" class="img-fluid">
+      </div>
+      <div class="col-12 col-sm-10">
+        <h2>Alright dental clinic</h2>
+        <p>Its time to smile again.</p>
+      </div>              
+    </div>
+  </div>
+</header>
+<div id="topNavBar">
+  <ul class="topNavBarLinksLeft">
+    <li><a style="opacity: 0"></a></li>
+    <li><a style="opacity: 0"></a></li>
+
+    <li><a href="index.html" ><span class="glyphicon glyphicon-home"></span> Home</a></li>
+    <li class="dropdown">
+      <a href="javascript:void(0)" class="dropbtn"> <span class="glyphicon glyphicon-cog"></span> Technologies<i class="fa fa-caret-down" style="display: inline;"></i></a>
+      <div class="dropdown-content">
+        <a href="#">CSE</a>
+        <a href="#">MECHANICAL</a>
+        <a href="#">CIVIL</a>
+        <a href="#">CHEMICAL</a>
+        <a href="#">METULLARGY</a>
+        <a href="#">ARCHITECTURE</a>
+        
+      </div> 
+    </li>
+    <li class="dropdown">
+      <a href="javascript:void(0)" class="dropbtn"><span class="glyphicon glyphicon-wrench"></span> ADVANCED DENTAL PROCEDDURES<i class="fa fa-caret-down" style="display: inline;"></i></a>
+      <div class="dropdown-content">
+        <a href="#">#4</a>
+          <a href="#">#4</a>
+          <a href="#">#4</a>
+          <a href="#">#4</a>
+      </div> 
+    </li>
+    
+    <li class="dropdown">
+      <a href="javascript:void(0)" class="dropbtn"><span class="glyphicon glyphicon-user"></span> About Us<i class="fa fa-caret-down" style="display: inline;"></i> </a>
+      <div class="dropdown-content">
+        <a href="contact.php">Contact Us</a>
+        <a href="team.htm" target=_blank >Meet our Team</a>
+        <a href="privacypolicy.php">Privacy Policy</a>
+        <a href="help.php">Help</a>
+      </div> 
+    </li>
+  </ul>     
+</div>
+</br>
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="well-block">
+        <div class="well-title">
+          <h2>Book an Appointment</h2>
+        </div>
+        <form name="myform">
+          <!-- Form start -->
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+                <label class="control-label" for="name">FirstName</label>
+                <input id="name" name="fname" type="text" placeholder="FirstName" class="form-control input-md" required>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label class="control-label" for="name">lastname</label>
+                <input id="name" name="lname" type="text" placeholder="LastName" class="form-control input-md">
+              </div>
+            </div>
+            <!-- Text input-->
+            <div class="col-md-6">
+              <div class="form-group">
+                <label class="control-label" for="email">Email</label>
+                <input id="email" name="email" type="text" placeholder="E-Mail" class="form-control input-md"required>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label class="control-label" for="date">Contact no.</label>
+                <input id="CONTACT" name="contact" type="text" placeholder="CONTACT" class="form-control input-md"required>
+              </div>
+            </div>
+            <!-- Text input-->
+            <div class="col-md-6">
+              <div class="form-group">
+                <label class="control-label" for="date">Preferred Date</label>
+                <input id="date" name="date" type="text" placeholder="Preferred Date" class="form-control input-md"required>
+              </div>
+            </div>
+            <!-- Select Basic -->
+            <div class="col-md-6">
+              <div class="form-group">
+                <label class="control-label" for="time">Preferred Time</label>
+                <select id="time" name="time" class="form-control" required>
+                  <option value="8:00 to 9:00">8:00 to 9:00</option>
+                  <option value="9:00 to 10:00">9:00 to 10:00</option>
+                  <option value="10:00 to 1:00">10:00 to 1:00</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-md-12">
+              <div class="form-group">
+                <label class="control-label" for="appointmentfor">Appointment For</label>
+                <select id="appointmentfor" name="appointmentfor" class="form-control"required>
+                  <option value="Service#1">Service#1</option>
+                  <option value="Service#2">Service#2</option>
+                  <option value="Service#3">Service#3</option>
+                  <option value="Service#4">Service#4</option>
+                </select>
+              </div>
+            </div>
+            <!-- Button -->
+            <div class="col-md-12">
+              <div class="form-group">
+                <button id="singlebutton" name="singlebutton" class="btn btn-primary">Make An Appointment</button>
+              </div>
+            </div>
+          </div>
+        </form>
+        <!-- form end -->
+      </div>
+    </div>  
+  </div>
+</div>
+
+<footer class="footer ">
+  <div class="container">
+    <div class="row">
+      <div class="col-4 offset-1 col-sm-2">
+        <ul  class="list-unstyled">
+          <li style="color:white;"><strong><a style=" padding: 7px;">LINKS</a></strong></li>
+          <li><a style=" padding: 7px;" href="index.html">Home</a></li>
+          <li><a style=" padding: 7px;" href="./aboutus.html">About</a></li>
+          <li><a style=" padding: 7px;" href="feedback.html">feedback</a></li>
+        </ul>
+      </div>
+      <div style="color:white;"class="col-7 col-sm-5">
+        <h5>Our Address</h5>
+        <address>
+          121, Clear Water Bay Road<br>
+          Clear Water Bay, Kowloon<br>
+          HONG KONG<br>
+          <i class="fa fa-phone fa-lg"></i>: +852 1234 5678<br>
+          <i class="fa fa-fax fa-lg"></i>: +852 8765 4321<br>
+          <i class="fa fa-envelope fa-lg"></i>: <a href="mailto:confusion@food.net">confusion@food.net</a>
+        </address>
+      </div>
+      <div class="col-12 col-sm-4 align-self-center">
+        <div class="text-center align-self-center" style="padding-top:20px;">
+          <div id="map" style="width:100%;height:180px;"></div>
+          <script>
+            function myMap() {
+              var mapCanvas = document.getElementById("map");
+              var mapOptions = {
+                center: new google.maps.LatLng(51.5, -0.2), zoom: 10,
+                mapTypeId: google.maps.MapTypeId.HYBRID
+              };
+              var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+            }
+          </script>
+          <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-auto">
+        <p style="color: white;">© Copyright 2018 D3ntalC7inic</p>
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

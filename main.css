@@ -1,0 +1,135 @@
+  #topdiv{
+   background-color: #232f3e;
+   padding-top: 4px;
+   padding-bottom: 3px;
+   position: relative;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
+ }
+ 
+.icon{
+  position: fixed;
+  top: 50px;
+  height: 85px;
+  width: 85px;
+  border-radius: 50%;
+  right:0px;
+  z-index: 2;
+
+}
+a:hover{
+  color:green;
+}
+
+#topNavBar {
+  top: 0px;
+  z-index: 1;
+  position: relative;
+  background-color: #232f3e;
+  color: white;
+  width: 100%;
+  left: 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.topNavBarLinksLeft {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.topNavBarLinksLeft li{
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif ;
+  text-align: center;
+  padding: 2px 60px;
+  text-decoration: none;
+  transition: .2s ease;
+  
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: white;
+  color: #232f3e;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: relative;
+  background-color: transparent;
+  min-width: 160px;
+  border-radius: 2px;
+  transition: 1s ease;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 4px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+header{
+  background-color: #2bbdf2;
+  position: relative;
+  margin-top: 25px;
+  padding-top: 25px;
+  padding-bottom: 15px;
+  background-image: linear-gradient(#2bbdf2, #0b8e2e);
+}
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  opacity: 1;
+  min-height: 110px;
+  background-color: #f9f9f9;
+}
+
+body{
+	height:1600px;
+}
+.mySlides {display: none;}
+
+
+/* Slideshow container */
+.slideshow-container {
+  width: auto;
+  position: relative;
+  margin: auto;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  
+}
+
+.active {
+  background-color: #717171;
+}
+.footer{
+  background-color: #232f3e;
+  margin-bottom: 0px;
+  margin-top: 100%;
+}
